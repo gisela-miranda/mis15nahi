@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis 15 - Nahi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <section class="hero">
+            <img src="Multimedia/hero.jpg" alt="Hero Mis 15" class="hero-img">
+            <h1></h1>
+            <h2></h2>
+        </section>
+
+        <section class="countdown-section">
+            <h2 class="title">¡Estás invitado!</h2>
+            <p class="subtitle">
+                Fuiste parte de mi crecimiento todos estos años,<br>
+                y hoy me gustaría que compartas conmigo<br>
+                esta noche tan esperada, soñada y especial para mí.
+            </p>
+            
+            <div class="countdown">
+                <div class="time-box">
+                    <span id="days">159</span>
+                    <small>DÍAS</small>
+                </div>
+                <div class="time-box">
+                    <span id="hours">4</span>
+                    <small>HORAS</small>
+                </div>
+                <div class="time-box">
+                    <span id="minutes">59</span>
+                    <small>MINUTOS</small>
+                </div>
+                <div class="time-box">
+                    <span id="seconds">43</span>
+                    <small>SEGUNDOS</small>
+                </div>
+            </div>
+            <a
+               href="https://www.google.com/calendar/render?action=TEMPLATE
+               &text=Mis+15+de+Nahiara
+               &dates=20260216T210000/20260217T040000
+               &ctz=America/Argentina/Buenos_Aires
+               &details=Te+espero+para+celebrar+una+noche+muy+especial+para+mi
+               &location=Hurlingham,+Buenos+Aires"
+               target="_blank"
+               class="calendar-btn"
+            >
+               Agendá esta noche
+            </a>
+        </section>
+
+        <section class="info-section">
+            <div class="info-block">
+                <div class="icon-circle">
+                    <span class="material-icons-outlined">local_bar</span>
+                </div>
+                <h3>Celebración</h3>
+                <p>
+                    La celebración será el<br>
+                    <strong>16 de febrero · 21:00 hs</strong><br>
+                    en <strong>Quinta Anahy</strong>
+                </p>
+                <a 
+                   href="https://maps.app.goo.gl/UAjH4k4ESrz91bDKA"
+                   target="_blank"
+                   class="map-btn"
+                >
+                   Ver ubicación
+                </a>
+            </div>
+            <div class="info-block">
+                <div class="icon-circle">
+                    <span class="material-icons-outlined">checkroom</span>
+                </div>
+                <h3>Dress code</h3>
+                <p>
+                    <strong>Formal</strong><br><br>
+                    Vení cómodo, vení a disfrutar y a bailar sin parar.<br>
+                    Es una noche importante para mí, <br>
+                    así que un poquito de elegancia siempre acompaña
+                </p>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="gallery-grid">
+                <img src="Multimedia/foto1.jpg" alt="foto" class="gallery-item">
+                <img src="Multimedia/foto2.jpg" alt="foto" class="gallery-item">
+                
+                <img src="Multimedia/foto3.jpg" alt="foto" class="gallery-item big">
+                
+                <img src="Multimedia/foto4.jpg" alt="foto" class="gallery-item">
+                <img src="Multimedia/foto5.jpg" alt="foto" class="gallery-item">
+            </div>
+        </section>
+
+        <section class="info-section regalos" id="regalos">
+            <div class="info-block">
+                <div class="icon-circle">
+                    <span class="material-icons-outlined">redeem</span>
+                </div>
+                <h3>Un pequeño detalle</h3>
+                <p>
+                    Lo más importante es tu presencia.<br>
+                    Pero si deseás hacerme un pequeño detalle,<br>
+                    acá te dejo los datos para hacerlo.
+                </p>
+            </div>
+            <div class="datos-regalo">
+                <div class="dato">
+                    <span class="label">Alias</span>
+                    <span class="value">nahiara.cumple15.mp</span>
+                </div>
+                <div class="dato">
+                    <span class="label">CVU</span>
+                    <span class="value">0000003100005225559357</span>
+                </div>
+                 <div class="dato">
+                    <span class="label">Nombre</span>
+                    <span class="value">Gisela Aylen Miranda</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="asistencia-section" id="asistencia">
+            <div class="asistencia-card">
+                <div class="icon-circle">
+                    <span class="material-icons-outlined">how_to_reg</span>
+                </div>
+                <h3>Confirmar asistencia</h3>
+                <p class="asistencia-text">
+                    Tu presencia es muy importante para mí. <br> 
+                    Si podés venir, confirmá tu asistencia y compartamos juntos esta noche tan especial.
+                </p>
+                <form action="https://formspree.io/f/xwvkjwrk" method="POST" class="rsvp-form">
+                    <input
+                    type="text"
+                    name="nombre"
+                    placeholder="Nombres y apellidos"
+                    required
+                    >
+                    <input
+                    type="text"
+                    name="cancion"
+                    placeholder="¿Qué canción no puede faltar?"
+                    >
+                    <button type="submit" class="map-btn full">
+                        Enviar respuesta
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section class="closing-section">
+            <h2 class="closing-title">¡Te espero!</h2>
+            <p class="closing-text">
+                Porque se viene una noche increíble, con música, baile y momentos para recordar.
+            </p>
+        </section>
+
+
+
+
+    </main>
+    <footer></footer>
+
+    <script>
+     const eventDate = new Date("2026-02-16T00:00:00").getTime();
+     const daysEl = document.getElementById("days");
+     const hoursEl = document.getElementById("hours");
+     const minutesEl = document.getElementById("minutes");
+     const secondsEl = document.getElementById("seconds");
+     function updateCountdown() {
+      const now = new Date().getTime();
+      const distance = eventDate - now;
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minutes = Math.floor(
+       (distance % (1000 * 60 * 60)) / (1000 * 60)
+      );
+      const seconds = Math.floor(
+       (distance % (1000 * 60)) / 1000
+      );
+
+      daysEl.innerText = days;
+      hoursEl.innerText = hours;
+      minutesEl.innerText = minutes;
+      secondsEl.innerText = seconds;
+     }
+
+     updateCountdown();              // se ejecuta apenas carga
+     setInterval(updateCountdown, 1000); // se repite cada 1 segundo
+    </script>
+
+</body>
+</html>
