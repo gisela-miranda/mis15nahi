@@ -13,7 +13,7 @@ html, body {
 }
 
 H1 {
-  color: #0a1e3c;
+  color: #262b81;
   font-family: 'Rochester', cursive;
   font-size: 4rem;
   font-weight: 550;
@@ -27,7 +27,7 @@ H2 {
   letter-spacing: 3px;
   opacity: 0.9;
   font-weight: 600;
-  color: #0a1e3c;
+  color: #262b81;
 }
 
 .hero {
@@ -60,7 +60,7 @@ H2 {
   font-family: 'Rochester', cursive;
   font-size: 2.5rem;
   font-weight: 500;
-  color: #0a1e3c;
+  color: #262b81;
   margin-bottom: 10px;
 }
 
@@ -268,7 +268,7 @@ H2 {
 .value {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 0.85rem;
-  color: #0a1e3c;
+  color: #262b81;
   font-weight: 500;
 }
 
@@ -301,7 +301,7 @@ H2 {
   font-size: 0.8rem;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #0a1e3c;
+  color: #262b81;
   margin: 18px 0 12px;
 }
 
@@ -339,13 +339,13 @@ H2 {
 }
 
 .asistencia-section .map-btn {
-  background-color: #0a1e3c;
+  background-color: #262b81;
   color: #ffffff;
   border: none;
 }
 
 .asistencia-section .map-btn:hover {
-  background-color: #0a1e3c;
+  background-color: #262b81;
 }
 
 
